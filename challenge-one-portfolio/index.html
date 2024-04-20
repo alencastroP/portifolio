@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portifólio Pedro</title>
+</head>
+<body>
+    <header class="navigation">
+        <div class="name">
+            <h4>Pedro Alencastro</h4>
+        </div>
+        <nav>
+            <a href=".me">Sobre mim</a>
+            <a href="#about__me">Skills</a>
+            <a href="#skills">Hobbies</a>
+            <a href="#hobbies">Formação</a>
+            <a href="#professional__experience">Projetos</a>
+            <a href="mailto:pedrovalencastro@outlook.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <label class="switch">
+                <input type="checkbox" id="toggle-mode">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+    </header>
+    <section class="me">
+        <img src="./assets/profile.png" alt="profile_pic">
+        <div class="text__me">
+            <h2>Prazer, sou Pedro Alencastro</h2>
+            <p>Sou um estudante de análise e desenvolvimento de sistemas, e estou participando do projeto da Oracle ONE na Alura latam.</p>
+        </div>
+        <div class="social__midias">
+            <nav>
+                <a href="https://github.com/alencastroP">
+                    <h5>Github</h5>
+                </a>
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="https://www.linkedin.com/in/alencastrp/">
+                    <h5>LinkedIn</h5>
+                </a>
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="https://www.instagram.com/alencastrp/">
+                    <h5>Instagram</h5>
+                </a>
+                <i class="fa-solid fa-arrow-right"></i>
+            </nav>
+        </div>
+    </section>
+
+    <section id="about__me">
+        <h2 class="topic__title">Sobre mim</h2>
+        <p>Me chamo Pedro, tenho 21 anos e moro em Natal no Rio Grande do Norte. Sou um entusiasta do desenvolvimento front-end com experiência em HTML, CSS e JavaScript, além de estar me aprofundando em React através da Alura.
+            Atualmente, atuo como agente de suporte técnico, aonde consigo aplicar meus conhecimentos nas linguagens citadas, e faço uma mentoria interna com um desenvolvedor da empresa para acelerar meu processo de preparação para entrar na área do desenvolvimento.
+            Estou sempre em busca de desafios empolgantes e oportunidades de colaboração. Vamos conectar e criar algo incrível juntos?.
+
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2 class="topic__black__title">Skills</h2>
+        <div class="cube__skills">
+            <div class="cube__skill">
+                <i class="fa-brands fa-html5"></i>
+                <p>Html 5</p>
+            </div>
+            
+            <div class="cube__skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS 3</p>
+            </div>
+            
+            <div class="cube__skill">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            
+            <div class="cube__skill">
+                <img src="./assets/react_icon.png" alt="react">
+                <p>React</p>
+            </div>
+            
+            <div class="cube__skill">
+                <img src="./assets/ts_icon.png" alt="ts">
+                <p>TypeScript</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="hobbies">
+        <h2 class="topic__black__title">Hobbies</h2>
+        <div class="cube__hobbies">
+            <div class="cube__hobbie">
+                <i class="fa-solid fa-person-walking"></i>
+                <p>Caminhar</p>
+            </div>
+            
+            <a href="https://www.youtube.com/watch?v=_4VRmEYFVcg" class="cube__hobbie">
+                <i class="fa-solid fa-dumbbell"></i>
+                <p>Academia</p>
+            </a>
+    
+            <a href="https://www.youtube.com/watch?v=j-wH8EPJ03U" class="cube__hobbie">
+                <i class="fa-solid fa-gamepad"></i>
+                <p>Jogar</p>
+            </a>
+    
+            <div class="cube__hobbie">
+                <i class="fa-solid fa-tv"></i>
+                <p>Assistir séries</p>
+            </div>
+    
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="cube__hobbie">
+                <i class="fa-solid fa-headphones"></i>
+                <p>Ouvir música</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="certificate">
+        <h2>Formações acadêmicas</h2>
+                <div class="formation">
+                    <div class="ufrn_ico">
+                        <img src="./assets/ufrn.png" alt="ufrn">
+                        <h3>Ciências e Tecnologia</h3>
+                        <p>2021 - 2024 | UFRN</p>
+                    </div>
+            
+                    <div class="estacio_ico">
+                        <img src="./assets/estacio.png" alt="estacio">
+                        <h3>Análise e desenvolvimento de sistemas</h3>
+                        <p>2022 - 2025 | Estácio</p>
+                    </div>
+                </div>
+    </section>
+
+    <section id="professional__experience">
+        <h2 class="topic__title">Projetos</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="./assets/organo.png" alt="organo">
+                <div class="complete__one">
+                    <div class="text__description__one">
+                        <h2>Organo</h2>
+                        <p>Organograma feito do React.</p>
+                    </div>
+                    <div class="btns">
+                        <a href="https://github.com/alencastroP/Organo">
+                            <button class="repositories">Repositório</button>
+                        </a>
+                        <a href="https://github.com/alencastroP/Organo">
+                            <button class="demo">Ver demo <p><strong>(Em breve)</strong></p></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project">
+                <img src="./assets/monibank.png" alt="landing page">
+                <div class="complete__two">
+                    <div class="text__description__two">
+                        <h2>Monibank</h2>
+                        <p>Projeto com HTML, CSS e JavaScript, reproduzindo um </p>
+                        <p>site bancário com reconhecimento facial</p>
+                    </div>
+                    <div class="btns">
+                        <a href="https://github.com/alencastroP/Alura-Monibank">
+                            <button class="repositories">Repositório</button>
+                        </a>
+                        <a href="https://alencastrop.github.io/Alura-Monibank/">
+                            <button class="demo">Ver demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project">
+                <img src="./assets/faq.png" alt="Imobiliaria">
+                <div class="complete__three">
+                    <div class="text__descriprion__three">
+                        <h2 >FAQ</h2>
+                        <p>Meu primeiro projeto da mentoria com HTML, CSS, JS</p>
+                    </div>
+                    <div class="btns">
+                        <a href="https://github.com/alencastroP/FAQ">
+                            <button class="repositories">Repositório</button>
+                        </a>
+                        <a href="https://alencastrop.github.io/FAQ/">
+                            <button class="demo">Ver demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="text__contact">
+            <h2>Entre em contato</h2>
+            <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possivel.</p>
+        </div>
+            <form action="" method="post">
+                <label class="float__label">
+                    <input type="text" name="nome" placeholder="" required>
+                    <span>Nome</span>
+                </label>
+                <label class="float__label">
+                    <input type="email" name="email" placeholder="" required>
+                    <span>E-mail</span>
+                </label>
+                <label class="float__label">
+                    <input type="text" name="assunto" placeholder="" maxlength="50" required>
+                    <span>Assunto</span>
+                </label>
+                <label class="float__label">
+                    <textarea name="" id="" cols="30" rows="10" maxlength="300" required></textarea>
+                    <span>Mensagem</span>
+                </label>
+                <button>Enviar mensagem</button>
+            </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Pedro Alencastro</p>
+        <p>2024</p>
+    </footer>
+
+    <script src="darkmode.js"></script>
+</body>
+</html>
