@@ -205,21 +205,21 @@
             <h2>Entre em contato</h2>
             <p>Preencha o formulário ao lado e entrarei em contato o mais rápido possivel.</p>
         </div>
-            <form action="" method="post">
+            <form onsubmit="sendPOST()" method="post">
                 <label class="float__label">
-                    <input type="text" name="nome" placeholder="" required>
+                    <input id="name" type="text" name="name" placeholder="" required>
                     <span>Nome</span>
                 </label>
                 <label class="float__label">
-                    <input type="email" name="email" placeholder="" required>
+                    <input id="email" type="email" name="email" placeholder="" required>
                     <span>E-mail</span>
                 </label>
                 <label class="float__label">
-                    <input type="text" name="assunto" placeholder="" maxlength="50" required>
+                    <input id="title" type="text" name="subject" placeholder="" maxlength="50" required>
                     <span>Assunto</span>
                 </label>
                 <label class="float__label">
-                    <textarea name="" id="" cols="30" rows="10" maxlength="300" required></textarea>
+                    <textarea id="description" name="" id="" cols="30" rows="10" maxlength="300" required></textarea>
                     <span>Mensagem</span>
                 </label>
                 <button>Enviar mensagem</button>
@@ -232,5 +232,6 @@
     </footer>
 
     <script src="darkmode.js"></script>
+    <script src="post.js"></script>
 </body>
 </html>
